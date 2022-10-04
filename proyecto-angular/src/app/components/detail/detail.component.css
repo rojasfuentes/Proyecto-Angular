@@ -1,0 +1,103 @@
+#contaier {
+    width: 100%;
+    height: auto;
+}
+
+.container .image {
+    float: left;
+    width: 45%;
+    margin: 30px;
+}
+
+
+.container .image img {
+    width: 100%;
+}
+
+.container .data {
+    float: left;
+    width: 45%;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Ubuntu';
+    font-size: 400%;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #ccc;
+}
+
+h2 {
+    font-family: 'Muli';
+    margin-bottom: 25px;
+    color: rgb(129, 129, 129);
+    text-align: justify;
+}
+
+.category {
+    background-color: #ccc;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.langs {
+    padding: 10px;
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 30px;
+}
+
+.btn{
+    text-decoration: none;
+    margin-right: 40px;
+    padding: 10px 30px;
+    background-color:rgb(219, 147, 13) ;
+    border-radius: 20px;
+    font-weight: bolder;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    transition: 0.3s ease-in;
+}
+
+.btn:hover{
+    background-color:#000 ;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.btn:active{
+    transform: scale(0.98);
+  }
+
+  .confirmMessage{
+    font-weight: bolder;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.btn.cancel,
+.btn.confirm{
+    margin-top: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn.confirm{
+    background-color: green;
+}
+
+.btn.cancel{
+    background-color: crimson;
+}
+
+.btn.cancel:hover,
+.btn.confirm:hover{
+   transform: translateY(-10px);
+   transform: scale(1.1);
+}

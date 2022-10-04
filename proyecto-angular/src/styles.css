@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+@font-face {
+    font-family: yanone;
+    src: url(assets/css/fonts/yanone.ttf);
+}
+
+@font-face {
+    font-family: finger;
+    src: url(assets/css/fonts/finger.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Muli';
+    font-size: 18px;
+    background: url(assets/css/img/pattern.png);
+    background-attachment: fixed;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+header ul{
+    display: flex;
+    width: 750px;
+    height: inherit;
+    margin: 0 auto;
+}
+
+header ul li{
+    display: flex;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 90px;
+}
+
+header a{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px 40px 0 40px;
+    height: inherit;
+    text-decoration: none;
+    color: #fff;
+    transition: all 300ms;
+}
+
+a:hover,
+.actived{
+    background-color: rgb(219, 147, 13);
+}
+.logo:hover{
+    background-color: transparent;
+    transform: scale(1.1);
+}
+
+.img-logo{
+    max-width: 80px;
+    max-height: 80px;
+    transform: 500ms;
+}
+
+#content{
+    display: block;
+    min-height: 100vh;
+    height: auto;
+    width: 75%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 100px;
+}
+
+footer{
+    font-family: 'Ubuntu', sans-serif;
+    width: 70%;
+    margin: 10px auto;
+    color: rgba(0, 0, 0, 0.3);
+}

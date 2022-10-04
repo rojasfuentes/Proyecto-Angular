@@ -1,0 +1,27 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<header>
+
+
+  <ul>
+    <a [routerLink]="['/sobre-mi']" [routerLinkActive]="['actived']">Sobre mi</a>
+    <a [routerLink]="['/proyectos']" [routerLinkActive]="['actived']">Proyectos</a>
+    <a href="avaScript:Void(0);"class="logo" [routerLinkActive]="['actived']"><img class="img-logo" src="../assets/css/img/Logo.png" ></a>
+    <a [routerLink]="['/crear-proyecto']" [routerLinkActive]="['actived']">Crear Proyectos</a>
+    <a [routerLink]="['/contacto' ]" [routerLinkActive]="['actived']">Contacto</a>
+  </ul>
+  
+</header>
+<h1>Proyecto</h1>
+
+<section id="content">
+  <router-outlet></router-outlet>
+
+</section>
+
+<footer>
+  Pie de Página &COPY;
+</footer>
+
